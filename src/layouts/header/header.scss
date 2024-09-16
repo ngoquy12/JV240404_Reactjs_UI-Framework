@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  background-color: gray;
+  padding: 24px 12px;
+
+  .header-left {
+    color: #fff;
+
+    .logo {
+    }
+  }
+
+  .header-right {
+    .link {
+      color: #fff;
+      padding: 12px;
+
+      &:hover {
+        color: aqua;
+      }
+    }
+  }
+}
